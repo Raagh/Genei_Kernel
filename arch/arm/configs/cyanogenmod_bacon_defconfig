@@ -6,7 +6,7 @@
 #Genei Kernel Configuration
 
 #### Hotplugs ####
-
+CONFIG_BRICKED_HOTPLUG=y
 
 #### Hardboot ####
 CONFIG_KEXEC=y
