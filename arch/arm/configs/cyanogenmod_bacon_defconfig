@@ -5,6 +5,8 @@
 
 #Genei Kernel Configuration
 
+#### Hotplugs ####
+CONFIG_MAKO_HOTPLUG=y
 
 #### Hardboot ####
 CONFIG_KEXEC=y
@@ -27,10 +29,13 @@ CONFIG_CPU_VOLTAGE_TABLE=y
 CONFIG_FORCE_FAST_CHARGE=y
 CONFIG_RWSEM_XCHGADD_ALGORITHM=y
 
+
 #### FileSystem ####
 CONFIG_EXFAT_FS=y
 
-
+#### CPUFREQ ####
+CONFIG_MSM_LIMITER=y
+CONFIG_STATE_NOTIFIER=y
 
 
 
