@@ -6,7 +6,7 @@
 #Genei Kernel Configuration
 
 #### Hotplugs ####
-CONFIG_MAKO_HOTPLUG=y
+
 
 #### Hardboot ####
 CONFIG_KEXEC=y
